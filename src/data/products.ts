@@ -46,7 +46,7 @@ export const products: Product[] = [
     name: "PROBIO CICA INTENSIVE AMPOULE",
     price: "$30.499",
     category: "Sérum",
-    image: "/images/products/PROBIO CICA INTENSIVE AMPOULE.jpg",
+    image: "/images/products/probio-cica-intensive-ampoule.jpg",
     gallery: ["/images/gallery/PROBIO CICA INTENSIVE AMPOULE/2.jpeg", "/images/gallery/PROBIO CICA INTENSIVE AMPOULE/3.jpeg"],
     description: "<strong>Sérum reparador pensado para reforzar la piel cuando está sensible, débil, deshidratada o fácilmente irritable.</strong> Ayuda a mejorar la sensación de confort, a reducir reactividad y a complementar rutinas de recuperación cutánea.",
     idealFor: "piel sensible, seca, enrojecida o sensibilizada por activos. Ideales para pieles maduras también."
@@ -66,7 +66,7 @@ export const products: Product[] = [
     name: "MADAGASCAR CENTELLA AMPOULE FOAM",
     price: "$28.399",
     category: "Limpiador Facial",
-    image: "/images/products/MADAGASCAR CENTELLA AMPOULE FOAM.jpg",
+    image: "/images/products/madagascar-centella-ampoule-foam.jpg",
     gallery: ["/images/gallery/MADAGASCAR CENTELLA AMPOULE FOAM/2.jpeg", "/images/gallery/MADAGASCAR CENTELLA AMPOULE FOAM/3.jpeg"],
     description: "<strong>Limpiador al agua pensado para el segundo paso de limpieza, o como limpiador principal si no usás maquillaje.</strong> Ayuda a retirar restos de suciedad y oleosidad sin dejar sensación agresiva. Al estar orientado a una línea de centella, apunta a una limpieza que se sienta más respetuosa con piel sensible o sensibilizada.",
     idealFor: "piel sensible, normal, mixta o quienes buscan limpieza sin resecar."
@@ -76,7 +76,7 @@ export const products: Product[] = [
     name: "POREMIZING DEEP CLEANSING FOAM",
     price: "$28.099",
     category: "Limpiador Facial",
-    image: "/images/products/POREMIZING DEEP CLEANSING FOAM.jpg",
+    image: "/images/products/poremizing-deep-cleansing-foam.jpg",
     gallery: ["/images/gallery/POREMIZING DEEP CLEANSING FOAM/2.jpeg", "/images/gallery/POREMIZING DEEP CLEANSING FOAM/3.jpeg"],
     description: "<strong>Limpiador enfocado en piel con poros notorios, sensación de grasa y necesidad de limpieza más profunda.</strong> Ayuda a retirar suciedad y sebo acumulado para que la piel se vea más fresca y con textura más uniforme.",
     idealFor: "piel mixta, grasa o con tendencia a congestión."
@@ -86,7 +86,7 @@ export const products: Product[] = [
     name: "ACNE SKIN RELIEF CLEANSER",
     price: "$28.399",
     category: "Limpiador Facial",
-    image: "/images/products/ACNE SKIN RELIEF CLEANSER.jpg",
+    image: "/images/products/acne-skin-relief-cleanser.jpg",
     gallery: ["/images/gallery/ACNE SKIN RELIEF CLEANSER/2.jpeg", "/images/gallery/ACNE SKIN RELIEF CLEANSER/3.jpeg"],
     description: "<strong>Limpiador orientado a piel con brotes, exceso de sebo y sensación de suciedad acumulada.</strong> Su función es acompañar rutinas antiacné limpiando la piel sin dejarla pesada, y ayudar a mantener una superficie más limpia para reducir congestión.",
     idealFor: "piel grasa, acneica o con brotes frecuentes."
@@ -96,7 +96,7 @@ export const products: Product[] = [
     name: "MADAGASCAR CENTELLA TONING TONER",
     price: "$33.199",
     category: "Tónico",
-    image: "/images/products/MADAGASCAR CENTELLA TONING TONER.jpg",
+    image: "/images/products/madagascar-centella-toning-toner.jpg",
     gallery: ["/images/gallery/MADAGASCAR CENTELLA TONING TONER/2.jpeg", "/images/gallery/MADAGASCAR CENTELLA TONING TONER/3.jpeg"],
     description: "<strong>Tónico diseñado para usar después de limpiar, con foco en hidratar, suavizar y preparar la piel para que reciba mejor serums y cremas.</strong> Ayuda a que la piel no quede tirante después del lavado y aporta una primera capa de humectación. Puede venir muy bien cuando la piel está deshidratada pero no necesariamente seca.",
     idealFor: "todo tipo de piel, especialmente deshidratada o sensible."
@@ -106,7 +106,7 @@ export const products: Product[] = [
     name: "POREMIZING TONER",
     price: "$31.399",
     category: "Tónico",
-    image: "/images/products/POREMIZING TONER.jpg",
+    image: "/images/products/poremizing-toner.jpg",
     gallery: ["/images/gallery/POREMIZING TONER/2.jpeg", "/images/gallery/POREMIZING TONER/3.jpeg"],
     description: "<strong>Tónico pensado para complementar una rutina orientada a poros, textura y control de oleosidad.</strong> Ayuda a que la piel se vea más equilibrada y a mantener una sensación más fresca después de la limpieza.",
     idealFor: "piel con poros visibles, mixta o grasa."
@@ -116,7 +116,7 @@ export const products: Product[] = [
     name: "PROBIO-CICA ESSENCE TONER",
     price: "$34.299",
     category: "Tónico",
-    image: "/images/products/PROBIO-CICA ESSENCE TONER.jpg",
+    image: "/images/products/probio-cica-essence-toner.jpg",
     gallery: ["/images/gallery/PROBIO-CICA ESSENCE TONER/2.jpeg", "/images/gallery/PROBIO-CICA ESSENCE TONER/3.jpeg"],
     description: "<strong>Tónico con enfoque reparador, pensado para piel que necesita calma + hidratación + refuerzo de barrera.</strong> La combinación “cica + ceramidas” apunta a ayudar en casos de piel frágil, sensibilizada o que pierde agua con facilidad.",
     idealFor: "piel sensible, seca, deshidratada o con barrera debilitada, y pieles maduras."
@@ -136,7 +136,7 @@ export const products: Product[] = [
     name: "POREMIZING LIGHT GEL CREAM",
     price: "$27.599",
     category: "Crema Hidratante",
-    image: "/images/products/POREMIZING LIGHT GEL CREAM.jpg",
+    image: "/images/products/poremizing-light-gel-cream.jpg",
     gallery: ["/images/gallery/POREMIZING LIGHT GEL CREAM/WhatsApp Image 2026-03-17 at 10.13.27 PM.jpeg", "/images/gallery/POREMIZING LIGHT GEL CREAM/WhatsApp Image 2026-03-17 at 10.13.28 PM (1).jpeg", "/images/gallery/POREMIZING LIGHT GEL CREAM/WhatsApp Image 2026-03-17 at 10.13.28 PM.jpeg"],
     description: "<strong>Hidratante en gel de textura liviana, ideal para quienes necesitan hidratación pero no toleran cremas pesadas.</strong> Está pensada para dejar la piel hidratada, más fresca y sin sensación grasosa, acompañando rutinas de poros o control de sebo.",
     idealFor: "piel mixta, grasa o con tendencia a brillo."
@@ -146,7 +146,7 @@ export const products: Product[] = [
     name: "PROBIO-CICA ENRICH CREAM",
     price: "$34.099",
     category: "Crema Hidratante",
-    image: "/images/products/PROBIO-CICA ENRICH CREAM.jpg",
+    image: "/images/products/probio-cica-enrich-cream.jpg",
     gallery: ["/images/gallery/PROBIO-CICA ENRICH CREAM/2.jpeg", "/images/gallery/PROBIO-CICA ENRICH CREAM/3.jpeg"],
     description: "<strong>Crema pensada para reforzar la barrera cutánea y mejorar la retención de hidratación.</strong> Está más orientada a pieles que sienten sequedad, descamación, sensibilidad o incomodidad, y que necesitan una crema con rol más reparador y protector.",
     idealFor: "piel seca, sensibilizada, con barrera alterada o deshidratada."
@@ -156,7 +156,7 @@ export const products: Product[] = [
     name: "TEA-TRICA INTENSIVE SOOTHING CREAM",
     price: "$27.799",
     category: "Crema Hidratante",
-    image: "/images/products/TEA-TRICA INTENSIVE SOOTHING CREAM.jpg",
+    image: "/images/products/tea-trica-intensive-soothing-cream.jpg",
     gallery: ["/images/gallery/TEA-TRICA INTENSIVE SOOTHING CREAM/2.jpeg", "/images/gallery/TEA-TRICA INTENSIVE SOOTHING CREAM/3.jpeg"],
     description: "<strong>Crema calmante enfocada en piel irritada, enrojecida o sensibilizada.</strong> Su objetivo dentro de la rutina es bajar la sensación de incomodidad, aportar confort y ayudar a mantener la piel más estable cuando está reactiva.",
     idealFor: "piel sensible, con rojeces, alterada o reseca."
@@ -176,7 +176,7 @@ export const products: Product[] = [
     name: "SMOOTH MILK TYPE SUNSCREEN FPS 50+",
     price: "$28.999",
     category: "Protector Solar",
-    image: "/images/products/SMOOTH MILK TYPE SUNSCREEN FPS 50+.jpg",
+    image: "/images/products/smooth-milk-type-sunscreen-fps-50+.jpg",
     gallery: ["/images/gallery/SMOOTH MILK TYPE SUNSCREEN FPS 50+/2.jpeg", "/images/gallery/SMOOTH MILK TYPE SUNSCREEN FPS 50+/3.jpeg"],
     description: "<strong>Protector solar de textura tipo leche, pensado para quienes buscan una aplicación más fluida, ligera y pareja.</strong> Ayuda a proteger del daño solar diario mientras deja una sensación más liviana que un protector denso.",
     idealFor: "uso diario, personas que prefieren texturas fluidas."
@@ -196,7 +196,7 @@ export const products: Product[] = [
     name: "BAKUCHIOL EYE CREAM",
     price: "$29.999",
     category: "Corrector de Ojos",
-    image: "/images/products/BAKUCHIOL EYE CREAM.jpg",
+    image: "/images/products/bakuchiol-eye-cream.jpg",
     gallery: ["/images/gallery/BAKUCHIOL EYE CREAM/2.jpeg", "/images/gallery/BAKUCHIOL EYE CREAM/3.jpeg"],
     description: "<strong>Contorno de ojos orientado a líneas finas, falta de elasticidad y aspecto cansado en la zona periocular.</strong> El bakuchiol suele usarse como alternativa cosmética suave para trabajar signos de edad, ayudando a que el contorno se vea más liso, hidratado y descansado.",
     idealFor: "primeras líneas, sequedad en contorno, mirada cansada."
@@ -206,7 +206,7 @@ export const products: Product[] = [
     name: "POREMIZING QUICK CLAY STICK MASK",
     price: "$25.099",
     category: "Mascarilla",
-    image: "/images/products/POREMIZING QUICK CLAY STICK MASK.jpg",
+    image: "/images/products/poremizing-quick-clay-stick-mask.jpg",
     gallery: ["/images/gallery/POREMIZING QUICK CLAY STICK MASK/2.jpeg", "/images/gallery/POREMIZING QUICK CLAY STICK MASK/3.jpeg"],
     description: "<strong>Mascarilla de arcilla en barra orientada a limpieza de poros, control de oleosidad y mejora visual de puntos negros.</strong> Al mismo tiempo, el enfoque en centella sugiere una acción más amable con la piel que una arcilla muy agresiva.",
     idealFor: "piel mixta/grasa, poros, brillo y congestión."
@@ -216,7 +216,7 @@ export const products: Product[] = [
     name: "MASCARILLAS POREMIZING CLARIFYING CENTELLA",
     price: "$6.000",
     category: "Mascarilla",
-    image: "/images/products/MASCARILLAS POREMIZING CLARIFYING CENTELLA.jpg",
+    image: "/images/products/mascarillas-poremizing-clarifying-centella.jpg",
     gallery: ["/images/gallery/MASCARILLAS POREMIZING CLARIFYING CENTELLA/2.jpeg"],
     description: "<strong>Mascarilla de tela pensada para dar un extra de hidratación y calma en poco tiempo.</strong> Es útil cuando la piel se siente cansada, tirante, apagada o sensibilizada, porque deja una sensación más fresca y confortable.",
     idealFor: "piel deshidratada, sensible o como “rescate” antes de un evento."
