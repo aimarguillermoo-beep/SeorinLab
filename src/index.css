@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+@theme {
+  --color-page-bg: #fdf5eb;
+  --color-hero-box: #eadbc9;
+  --color-text-main: #54504e;
+  --color-text-light: #ab9f96;
+  --color-accent-pink: #e6b8ae;
+  --color-btn-bg: #5c5652;
+  --color-btn-hover: #423d3a;
+  
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+}
+
+:root {
+  --color-page-bg: #fdf5eb;
+  --color-hero-box: #eadbc9;
+  --color-text-main: #54504e;
+  --color-text-light: #ab9f96;
+  --color-accent-pink: #e6b8ae;
+  --color-btn-bg: #5c5652;
+  --color-btn-hover: #423d3a;
+}
+
+:root {
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf5eb !important;
+  color: #54504e !important;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Premium scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4cbc2;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b5aca3;
+}
+
+/* Custom scrollbar for modals */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #d4cbc2;
+  border-radius: 10px;
+}
+
+/* Elegant fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out both;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.7s ease-out both;
+}
+
+/* Staggered delays for product cards */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+
+/* Elegant divider */
+.elegant-divider {
+  width: 40px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #e6b8ae, transparent);
+}
+
+/* Premium button hover glow */
+.btn-premium {
+  position: relative;
+  overflow: hidden;
+}
+.btn-premium::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.15) 50%, transparent 70%);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+.btn-premium:hover::after {
+  transform: translateX(100%);
+}
+
+/* Subtle gold accent line */
+.gold-line {
+  background: linear-gradient(90deg, #e6b8ae, #d4a898, #e6b8ae);
+}
