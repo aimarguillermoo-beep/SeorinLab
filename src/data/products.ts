@@ -166,7 +166,7 @@ export const products: Product[] = [
     name: "HYALU-CICA WATER-FIT SUN SERUM FPS 50+",
     price: "$30.999",
     category: "Protector Solar",
-    image: "/images/products/HYALU-CICA WATER-FIT SUN SERUM FPS 50+.jpg",
+    image: "/images/products/hyalu-cica-water-fit-sun-serum-fps-50+.jpg",
     gallery: ["/images/gallery/HYALU-CICA WATER-FIT SUN SERUM FPS 50+/2.jpeg", "/images/gallery/HYALU-CICA WATER-FIT SUN SERUM FPS 50+/3.jpeg"],
     description: "<strong>Protector solar de uso diario con textura tipo sérum, pensado para quienes quieren protección alta sin sensación pesada ni acabado pastoso.</strong> Ayuda a proteger la piel del daño solar que favorece manchas, envejecimiento prematuro y sensibilización, mientras deja un acabado más hidratante y cómodo que un protector tradicional muy denso.",
     idealFor: "todo tipo de piel, especialmente quienes buscan un protector liviano para uso diario."
@@ -186,7 +186,7 @@ export const products: Product[] = [
     name: "HYALU-CICA SILKY-FIT SUN STICK FPS 50+",
     price: "$31.999",
     category: "Protector Solar",
-    image: "/images/products/HYALU-CICA SILKY-FIT SUN STICK FPS 50+.jpg",
+    image: "/images/products/hyalu-cica-silky-fit-sun-stick-fps-50+.jpg",
     gallery: ["/images/gallery/HYALU-CICA SILKY-FIT SUN STICK FPS 50+/2.jpeg", "/images/gallery/HYALU-CICA SILKY-FIT SUN STICK FPS 50+/3.jpeg"],
     description: "<strong>Protector solar en barra pensado especialmente para la reaplicación durante el día.</strong> Sirve mucho para zonas expuestas como frente, pómulos, nariz y mentón, y es práctico para llevar en cartera. Ayuda a mantener la protección solar sin necesidad de ensuciarse las manos y suele ser cómodo para retocar encima del maquillaje o en salidas.",
     idealFor: "reaplicación, uso urbano, personas prácticas, piel normal/mixta."
