@@ -61,7 +61,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
               <img 
                 src={images[currentImageIndex]} 
                 alt={`${product.name} view ${currentImageIndex + 1}`}
-                className="max-w-full max-h-[60vh] object-contain scale-[1.04] mix-blend-darken transition-opacity duration-300"
+                className="max-w-full max-h-[60vh] object-contain scale-[1.04] transition-opacity duration-300"
                 key={currentImageIndex} // Helps trigger tiny fade or re-layout
               />
             ) : null}

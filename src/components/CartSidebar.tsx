@@ -65,7 +65,7 @@ export default function CartSidebar() {
                     <img 
                       src={item.product.image} 
                       alt={item.product.name}
-                      className="w-full h-full object-cover mix-blend-multiply"
+                      className="w-full h-full object-contain"
                     />
                   ) : (
                     <div className={`w-[60%] h-[70%] ${item.product.bottleColor || 'bg-black/20'} rounded-t-xl`} />

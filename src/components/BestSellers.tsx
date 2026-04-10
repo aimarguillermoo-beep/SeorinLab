@@ -42,17 +42,15 @@ export default function BestSellers() {
             onClick={() => setSelectedProduct(product)}
           >
             {/* Image container */}
-            <div className={`w-full aspect-[4/5] bg-transparent relative overflow-hidden flex items-end justify-center rounded-sm transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-1`}>
+            <div className={`w-full aspect-square bg-transparent relative overflow-hidden flex items-center justify-center rounded-sm transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-1`}>
               
               {product.image ? (
-                <div className="absolute inset-0 p-3 md:p-7 lg:p-9 flex items-center justify-center">
-                  <div className="relative w-full h-full flex items-center justify-center overflow-hidden bg-white/50 rounded-sm">
-                    <img 
-                      src={product.image} 
-                      alt={product.name} 
-                      className="w-full h-full object-contain scale-[1.04] mix-blend-darken transition-transform duration-700 ease-out group-hover:scale-[1.1]" 
-                    />
-                  </div>
+                <div className="absolute inset-0 p-2 md:p-4 lg:p-5 flex items-center justify-center">
+                  <img 
+                    src={product.image} 
+                    alt={product.name} 
+                    className="max-w-full max-h-full object-contain transition-transform duration-700 ease-out group-hover:scale-[1.06]" 
+                  />
                 </div>
               ) : (
                 <>
