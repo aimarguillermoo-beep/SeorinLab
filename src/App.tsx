@@ -8,7 +8,7 @@ import CartSidebar from './components/CartSidebar';
 
 function App() {
   return (
-    <div className="min-h-screen bg-page-bg flex flex-col font-sans relative overflow-x-hidden">
+    <div className="min-h-screen bg-page-bg flex flex-col font-sans relative">
       <CartSidebar />
       <Navbar />
       <main className="flex-grow">
