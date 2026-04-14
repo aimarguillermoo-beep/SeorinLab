@@ -55,13 +55,13 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
         </button>
 
         {/* Left column: Image carousel */}
-        <div className="w-full md:w-1/2 p-6 md:p-12 flex flex-col items-center justify-center relative min-h-[50vh]">
-          <div className="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <div className="w-full md:w-1/2 p-6 md:p-12 flex flex-col items-center justify-center relative md:min-h-[50vh]">
+          <div className="relative w-full flex items-center justify-center">
             {images.length > 0 ? (
               <img 
                 src={images[currentImageIndex]} 
                 alt={`${product.name} view ${currentImageIndex + 1}`}
-                className="max-w-full max-h-[60vh] object-contain scale-[1.04] transition-opacity duration-300"
+                className="max-w-full max-h-[80vh] md:max-h-[60vh] object-contain transition-opacity duration-300"
                 key={currentImageIndex} // Helps trigger tiny fade or re-layout
               />
             ) : null}
@@ -87,7 +87,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
           </div>
 
           {hasMultipleImages && (
-            <div className="absolute bottom-6 left-0 right-0 flex justify-center gap-2">
+            <div className="mt-4 flex justify-center gap-2">
               {images.map((_, idx) => (
                 <button
                   key={idx}
