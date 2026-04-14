@@ -17,7 +17,7 @@ export const products: Product[] = [
     price: "$23.199",
     category: "Sérum",
     image: "/images/products/tea-trica-relief-ampoule.webp",
-    gallery: ["/images/gallery/tea-trica-relief-ampoule/2.jpeg", "/images/gallery/tea-trica-relief-ampoule/3.jpeg"],
+    gallery: ["/images/gallery/tea-trica-relief-ampoule/2.webp", "/images/gallery/tea-trica-relief-ampoule/3.jpeg"],
     description: "<strong>Sérum orientado a piel con acné, granitos activos, textura irregular y exceso de sebo.</strong> Su perfil está pensado para ayudar a desinflamar brotes, bajar rojeces post-granito y mantener la piel más equilibrada, sin sensación pesada. Sirve especialmente cuando hay piel grasa o mixta que necesita tratamiento, pero sin resecar de más.",
     idealFor: "piel grasa, acneica, con brotes, puntos rojos o poros congestionados."
   },
