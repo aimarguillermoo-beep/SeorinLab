@@ -34,7 +34,7 @@ export default function Navbar() {
       </div>
 
       {/* Sticky Nav Bar - constant height, never changes */}
-      <nav className="w-full px-4 md:px-8 py-3 sticky top-0 z-50 bg-[#fdf5eb]/90 backdrop-blur-md">
+      <nav className="w-full px-4 md:px-8 py-3 sticky top-0 z-50 bg-[#FEF6F5]/90 backdrop-blur-md">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           {/* Hamburger - Wrap in flex-1 to perfectly center the nav links */}
           <div className="flex-1 flex justify-start">
@@ -48,7 +48,7 @@ export default function Navbar() {
 
               {/* Dropdown Menu */}
               {isMenuOpen && (
-                <div className="absolute top-8 left-0 min-w-[220px] bg-[#fdf5eb] shadow-xl rounded-md py-4 z-50 flex flex-col border border-black/5 animate-fade-in">
+                <div className="absolute top-8 left-0 min-w-[220px] bg-[#FEF6F5] shadow-xl rounded-md py-4 z-50 flex flex-col border border-black/5 animate-fade-in">
                   <span className="px-5 mb-3 text-[10px] tracking-[0.2em] uppercase font-bold text-text-light/80 border-b border-black/5 pb-2">
                     Categorías
                   </span>
@@ -67,7 +67,7 @@ export default function Navbar() {
           </div>
 
           {/* Nav Links */}
-          <div className="flex-none flex justify-center items-center text-[10px] md:text-xs tracking-[0.15em] font-medium text-text-light uppercase">
+          <div className="flex-none flex justify-center items-center text-[10px] md:text-xs tracking-[0.15em] font-medium text-text-light uppercase select-none">
             {/* HOME */}
             <div className="w-20 md:w-28 flex justify-center">
               <div 

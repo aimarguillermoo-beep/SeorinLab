@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-page-bg: #fdf5eb;
+  --color-page-bg: #FEF6F5;
   --color-hero-box: #eadbc9;
   --color-text-main: #54504e;
   --color-text-light: #ab9f96;
@@ -14,7 +14,7 @@
 }
 
 :root {
-  --color-page-bg: #fdf5eb;
+  --color-page-bg: #FEF6F5;
   --color-hero-box: #eadbc9;
   --color-text-main: #54504e;
   --color-text-light: #ab9f96;
@@ -41,7 +41,7 @@ body,
 #root {
   margin: 0;
   padding: 0;
-  background-color: #fdf5eb !important;
+  background-color: #FEF6F5 !important;
   color: #54504e !important;
   min-height: 100vh;
   width: 100%;

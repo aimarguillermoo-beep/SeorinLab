@@ -18,10 +18,19 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
     setCurrentImageIndex(0);
   }, [product, isOpen]);
 
-  if (!isOpen || !product) return null;
-
-  const images = product.image ? [product.image, ...(product.gallery || [])] : [];
+  const images = product && product.image ? [product.image, ...(product.gallery || [])] : [];
   const hasMultipleImages = images.length > 1;
+
+  useEffect(() => {
+    if (isOpen && images.length > 0) {
+      images.forEach(src => {
+        const img = new window.Image();
+        img.src = src;
+      });
+    }
+  }, [product, isOpen, images]);
+
+  if (!isOpen || !product) return null;
 
   const nextImage = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -43,7 +52,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
       onClick={onClose}
     >
       <div 
-        className="w-full max-w-5xl max-h-full overflow-y-auto bg-[#fdf5eb] rounded-xl shadow-2xl flex flex-col md:flex-row relative animate-in fade-in zoom-in-95 duration-300"
+        className="w-full max-w-5xl max-h-full overflow-y-auto bg-[#FEF6F5] rounded-xl shadow-2xl flex flex-col md:flex-row relative animate-in fade-in zoom-in-95 duration-300"
         onClick={(e) => e.stopPropagation()}
       >
         <button 
