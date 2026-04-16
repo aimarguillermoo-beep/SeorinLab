@@ -21,7 +21,7 @@ export default function Navbar() {
       {/* Logo Section - scrolls away naturally */}
       <div className="w-full pt-6 pb-2 px-4 md:px-8 bg-page-bg">
         <div className="max-w-5xl mx-auto flex justify-center">
-          <div className="flex flex-col items-center justify-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          <div className="flex flex-col items-center justify-center cursor-pointer select-none" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <h1 className="tracking-[0.25em] font-normal text-text-main uppercase text-2xl md:text-3xl" style={{ paddingLeft: '0.25em' }}>
               Seorin Lab
             </h1>
@@ -70,19 +70,21 @@ export default function Navbar() {
           <div className="flex-none flex justify-center items-center text-[10px] md:text-xs tracking-[0.15em] font-medium text-text-light uppercase select-none">
             {/* HOME */}
             <div className="w-20 md:w-28 flex justify-center">
-              <div 
-                className="flex flex-col items-center group cursor-pointer hover:text-text-main transition-colors"
+              <button 
+                type="button"
+                className="flex flex-col items-center group cursor-pointer hover:text-text-main transition-colors focus:outline-none select-none"
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               >
                 <span className="mb-1">HOME</span>
                 <div className="w-0 group-hover:w-6 h-[1.5px] gold-line transition-all duration-300"></div>
-              </div>
+              </button>
             </div>
 
             {/* SHOP */}
             <div className="w-20 md:w-28 flex justify-center">
-              <div 
-                className="flex flex-col items-center group cursor-pointer hover:text-text-main transition-colors"
+              <button 
+                type="button"
+                className="flex flex-col items-center group cursor-pointer hover:text-text-main transition-colors focus:outline-none select-none"
                 onClick={() => {
                   const el = document.getElementById('shop-section');
                   if (el) el.scrollIntoView({ behavior: 'smooth' });
@@ -90,20 +92,21 @@ export default function Navbar() {
               >
                 <span className="mb-1">SHOP</span>
                 <div className="w-0 group-hover:w-6 h-[1.5px] gold-line transition-all duration-300"></div>
-              </div>
+              </button>
             </div>
 
             {/* CONTACT */}
             <div className="w-20 md:w-28 flex justify-center">
-              <div 
-                className="flex flex-col items-center group cursor-pointer hover:text-text-main transition-colors"
+              <button 
+                type="button"
+                className="flex flex-col items-center group cursor-pointer hover:text-text-main transition-colors focus:outline-none select-none"
                 onClick={() => {
                   window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
                 }}
               >
                 <span className="mb-1">CONTACT</span>
                 <div className="w-0 group-hover:w-6 h-[1.5px] gold-line transition-all duration-300"></div>
-              </div>
+              </button>
             </div>
           </div>
 
