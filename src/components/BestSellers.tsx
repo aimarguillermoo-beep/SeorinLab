@@ -18,9 +18,9 @@ export default function BestSellers() {
   const displayProducts = products.filter(p => featuredNames.includes(p.name));
 
   return (
-    <section id="shop-section" className="w-full max-w-[1200px] mx-auto px-4 md:px-8 py-16 mt-8">
+    <section id="shop-section" className="w-full max-w-[1200px] mx-auto px-4 md:px-8 pt-10 md:pt-16 pb-12 md:pb-16 mt-0 md:mt-8">
       {/* Header row */}
-      <div className="flex justify-between items-end mb-10">
+      <div className="flex justify-between items-end mb-1 md:mb-10">
         <div className="flex flex-col">
           <span className="text-[9px] md:text-[10px] tracking-[0.3em] text-accent-pink uppercase font-semibold mb-2">Selección especial</span>
           <h3 className="text-2xl md:text-[28px] font-serif font-normal text-text-main mb-2 italic">
@@ -86,7 +86,7 @@ export default function BestSellers() {
             </div>
             
             <div className="flex flex-col flex-grow mt-2 items-center transition-opacity duration-300">
-              <h4 className="text-[12px] md:text-[17px] lg:text-[18px] font-serif font-bold text-black text-center leading-snug tracking-wide normal-case" style={{ WebkitTextStroke: '0.3px' }}>
+              <h4 className="text-[13px] md:text-[19px] lg:text-[21px] font-serif italic font-medium text-text-main text-center leading-snug tracking-wide px-2">
                 {product.name.split(' ').map(w => w.length <= 4 && w === w.toUpperCase() ? w : w.charAt(0) + w.slice(1).toLowerCase()).join(' ')}
               </h4>
               <div className="mt-auto pt-3 flex flex-col items-center w-full">
@@ -106,7 +106,7 @@ export default function BestSellers() {
                 ) : (
                   <button 
                     onClick={(e) => { e.stopPropagation(); addItem(product); }}
-                    className="text-[4px] lg:text-[9px] font-serif font-semibold uppercase tracking-normal lg:tracking-[0.15em] border-b border-accent-pink/60 text-text-light hover:text-accent-pink transition-all duration-300 pb-0 lg:pb-px hover:border-accent-pink origin-bottom scale-[0.85] lg:scale-100"
+                    className="text-[5px] lg:text-[6px] font-serif font-semibold uppercase tracking-widest border-b border-accent-pink/50 text-text-light hover:text-accent-pink transition-all duration-300 pb-px hover:border-accent-pink origin-bottom scale-[0.75] lg:scale-[0.8]"
                   >
                     Añadir al carrito
                   </button>

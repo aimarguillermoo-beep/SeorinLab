@@ -4,24 +4,24 @@ export default function Hero() {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <section className="w-full relative px-2 md:px-4 max-w-[1400px] mx-auto pb-12 pt-6">
+    <section className="w-full relative px-2 md:px-4 max-w-[1400px] mx-auto pb-8 md:pb-12 pt-6">
       {/* The main hero box */}
       <div className="w-full bg-[#E5D7CC] p-2 md:p-3 flex flex-col items-center justify-center relative">
         
         {/* Subtle gradient overlay for depth */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/[0.03]"></div>
         
-        <div className="flex flex-col items-center justify-center w-full relative z-10 bg-[#F9F4F1] min-h-[420px] md:min-h-[60vh]">
+        <div className="flex flex-col items-center justify-center w-full relative z-10 bg-[#F9F4F1] min-h-[240px] sm:min-h-[300px] md:min-h-[60vh] py-8 md:py-0">
           {!imageError ? (
             <img 
               src="/logo.png" 
               alt="Seorin Lab Logo" 
-              className="h-[280px] md:h-[380px] lg:h-[450px] w-auto max-w-full object-contain animate-scale-in transition-transform duration-700 hover:scale-[1.02]" 
+              className="h-[140px] sm:h-[180px] md:h-[380px] lg:h-[450px] w-auto max-w-[90%] object-contain animate-scale-in transition-transform duration-700 hover:scale-[1.02]" 
               onError={() => setImageError(true)}
             />
           ) : (
-            <div className="flex flex-col items-center justify-center animate-fade-in-up">
-              <svg width="180" height="180" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="mb-6 md:mb-8 md:scale-125 transition-transform duration-700 hover:scale-150">
+            <div className="flex flex-col items-center justify-center animate-fade-in-up px-4 w-full">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[90px] h-[90px] sm:w-[120px] sm:h-[120px] md:w-[180px] md:h-[180px] mb-2 md:mb-8 md:scale-125 transition-transform duration-700 hover:scale-150">
                 {/* Outer circles now matching the darker shade */}
                 <circle cx="50" cy="50" r="46" stroke="#8F5D5A" strokeWidth="1" />
                 <circle cx="50" cy="50" r="39" stroke="#8F5D5A" strokeWidth="1" />
@@ -49,13 +49,13 @@ export default function Hero() {
                 </g>
               </svg>
 
-              <h2 className="text-[44px] md:text-[65px] lg:text-[75px] tracking-[0.25em] font-serif text-[#4A4F4D] uppercase font-medium mt-4 md:mt-8 relative z-10 w-full text-center">
+              <h2 className="text-[22px] sm:text-[28px] md:text-[65px] lg:text-[75px] tracking-[0.1em] sm:tracking-[0.15em] md:tracking-[0.25em] font-serif text-[#4A4F4D] uppercase font-medium mt-1 md:mt-4 relative z-10 w-full text-center">
                 Seorin Lab
               </h2>
               
-              <div className="w-[110%] max-w-[550px] md:max-w-[700px] h-[1px] bg-[#C2C1BD] mt-4 mb-5"></div>
+              <div className="w-[80%] sm:w-[85%] md:w-[110%] max-w-[300px] md:max-w-[700px] h-[1px] bg-[#C2C1BD] mt-2 mb-2 md:mt-4 md:mb-5"></div>
               
-              <p className="font-serif italic text-[#8B847A] text-2xl lg:text-3xl tracking-[0.1em]">
+              <p className="font-serif italic text-[#8B847A] text-sm sm:text-lg md:text-2xl lg:text-3xl tracking-[0.05em] md:tracking-[0.1em]">
                 Korean Skincare
               </p>
             </div>
